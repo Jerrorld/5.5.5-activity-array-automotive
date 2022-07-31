@@ -17,7 +17,7 @@ class MercurySedan extends VehicleModule {
 
         loadPassenger (num) {
         if (this.passenger < this.maximumPassengers) {
-            console.log("You may load more passenger/(s/)");
+            console.log("You may load more passenger\(s\)");
         } else {
             console.log("You may not load this many passengers. Please make sure there are no more than 5 passengers");
         }
